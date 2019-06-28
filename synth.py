@@ -5,7 +5,7 @@ import synth_keyboard as sk
 pygame.mixer.init()
 
 # directory name where sounds are
-direc = '/Users/nol975/Desktop/tiny-piano00/Piano-'
+direc = 'sounds/Piano-'
 
 keys = ['A4', 'A5', 'D#4', 'D#5', 'C1', 'F#5', 'C3', 'F#3', 'D#3', 'C4', 'C5', 'C5']
 
@@ -18,7 +18,7 @@ root.geometry("600x350")
 
 # label
 
-synthphoto = tk.PhotoImage(file='/Users/nol975/Desktop/ferdis_synth.png')
+synthphoto = tk.PhotoImage(file='pictures/ferdis_synth.png')
 synthphoto = synthphoto.zoom(2, 2)
 top = tk.Frame(root).pack(side=tk.TOP)
 synthtitle = tk.Label(top, text='test', image=synthphoto, bg='purple')
